@@ -4,8 +4,8 @@ import {Link} from "react-router-dom";
 const Nav = () => {
     return (
         <ul className="mainmenu">
-            <li className="has-droupdown"><Link to="#">Home</Link>
-                <ul className="submenu">
+            <li className="has-droupdown"><Link to="/business-consulting-2">Home</Link>
+                {/* <ul className="submenu">
                     <li><Link to="/business-consulting">Business Consulting</Link></li>
                     <li><Link to="/business-consulting-2">Business Consulting 02</Link></li>
                     <li><Link to="/corporate">Corporate</Link></li>
@@ -24,49 +24,61 @@ const Nav = () => {
                     <li><Link to="/international-consulting">International Consulting</Link></li>
                     <li><Link to="/startup">Startup</Link></li>
                     <li><Link to="/web-agency">Web Agency</Link></li>
-                </ul>
+                </ul> */}
             </li>
             
             <li><Link to="/about-us">About</Link></li>
 
-            <li className="with-megamenu"><Link to="#">Elements</Link>
+            <li className="with-megamenu"><Link to="#">Services</Link>
                 <div className="rn-megamenu">
                     <div className="wrapper">
                         <div className="row row--0">
                             <div className="col-lg-3 single-mega-item">
                                 <ul className="mega-menu-item">
-                                    <li><Link to="/button">Button</Link></li>
+                                    {/* <li><Link to="/button">Button</Link></li>
                                     <li><Link to="/service">Service</Link></li>
                                     <li><Link to="/counter">Counter</Link></li>
                                     <li><Link to="/progressbar">Progressbar</Link></li>
                                     <li><Link to="/accordion">Accordion</Link></li>
                                     <li><Link to="/social-share">Social Share</Link></li>
-                                    <li><Link to="/blog-grid">Blog Grid</Link></li>
+                                    <li><Link to="/blog-grid">Blog Grid</Link></li> */}
+                                    <li><Link to="/service">Marketing</Link></li>
+                                    <li><Link to="/counter">Brand Marketing</Link></li>
+                                    <li><Link to="/progressbar">Brand Awareness</Link></li>
+                                    <li><Link to="/accordion">Press Release</Link></li>
+                                    <li><Link to="/social-share">Social Media Marketing</Link></li>
+                                    <li><Link to="/social-share">Project Hype Building</Link></li>
+
                                 </ul>
                             </div>
                             <div className="col-lg-3 single-mega-item">
                                 <ul className="mega-menu-item">
-                                    <li><Link to="/team">Team</Link></li>
+                                    {/* <li><Link to="/team">Team</Link></li>
                                     <li><Link to="/portfolio">Portfolio</Link></li>
                                     <li><Link to="/testimonial">Testimonial</Link></li>
                                     <li><Link to="/timeline">Timeline</Link></li>
                                     <li><Link to="/tab">Tab</Link></li>
                                     <li><Link to="/pricing">Pricing</Link></li>
-                                    <li><Link to="/split">Split Section</Link></li>
+                                    <li><Link to="/split">Split Section</Link></li> */}
+                                    <li><Link to="/service">Security</Link></li>
+                                    <li><Link to="/counter">Blockchain Security</Link></li>
+                                    <li><Link to="/progressbar">Penetration Testing</Link></li>
+                                    <li><Link to="/accordion">Security Assessment</Link></li>
+                                    
                                 </ul>
                             </div>
                             <div className="col-lg-3 single-mega-item">
                                 <ul className="mega-menu-item">
-                                    <li><Link to="/call-to-action">Call To Action</Link></li>
+                                    {/* <li><Link to="/call-to-action">Call To Action</Link></li>
                                     <li><Link to="/video-popup">Video</Link></li>
                                     <li><Link to="/gallery">Gallery</Link></li>
                                     <li><Link to="/contact">Contact</Link></li>
                                     <li><Link to="/brand">Brand</Link></li>
                                     <li><Link to="/portfolio">Portfolio</Link></li>
-                                    <li><Link to="/error">404</Link></li>
+                                    <li><Link to="/error">404</Link></li> */}
                                 </ul>
                             </div>
-                            <div className="col-lg-3 single-mega-item">
+                            {/* <div className="col-lg-3 single-mega-item">
                                 <ul className="mega-menu-item">
                                     <li><Link to="/advance-tab">Advance Tab <span className="rn-badge-card">Hot</span></Link></li>
                                     <li><Link to="#">Brand Carousel <span className="rn-badge-card">Comming</span></Link></li>
@@ -75,7 +87,7 @@ const Nav = () => {
                                     <li><Link to="/blog-details/1">Blog Details</Link></li>
                                     <li><Link to="/error">404 Page</Link></li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -90,7 +102,7 @@ const Nav = () => {
                 </ul>
             </li>
 
-            <li className="has-droupdown"><Link to="#">Portfolio</Link>
+            {/* <li className="has-droupdown"><Link to="#">Portfolio</Link>
                 <ul className="submenu">
                     <li><Link to="/portfolio">Portfolio Default</Link></li>
                     <li><Link to="/portfolio-three-column">Portfolio Three Column</Link></li>
@@ -98,7 +110,7 @@ const Nav = () => {
                     <li><Link to="/portfolio-grid-layout">Portfolio Grid Layout</Link></li>
                     <li><Link to="/portfolio-box-layout">Portfolio Box Layout</Link></li>
                 </ul>
-            </li>
+            </li> */}
 
             <li className="has-droupdown"><Link to="/contact">Contact</Link></li>
         </ul>

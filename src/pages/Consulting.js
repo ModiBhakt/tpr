@@ -19,7 +19,7 @@ const Consulting = () => {
         <>
             <SEO title="Consulting" />
             <main className="page-wrapper">
-                <HeaderTopBar />
+                
                 <HeaderOne btnStyle="btn-small" HeaderSTyle="header-transparent" />
 
                 {/* Start Slider area  */}

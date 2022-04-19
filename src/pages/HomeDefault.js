@@ -33,9 +33,8 @@ const HomeDefault = () => {
     
     return (
         <>
-            <SEO title="Business Consulting" />
+            <SEO title="Home" />
             <main className="page-wrapper">
-                <HeaderTopNews />
                 <HeaderOne  btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
 
                 {/* Start Slider Area  */}

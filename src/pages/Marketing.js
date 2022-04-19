@@ -23,7 +23,7 @@ const Marketing = () => {
             <SEO title="Marketing" />
             <main className="page-wrapper">
                 
-                <HeaderTopBar />
+                
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
 
 
@@ -98,7 +98,7 @@ const Marketing = () => {
                                     textAlign = "text-center"
                                     radiusRounded = ""
                                     subtitle = "You can acquire all."
-                                    title = "Acquire new customers with Doob."
+                                    title = "Acquire new customers with TPR."
                                     description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                 />
                             </div>

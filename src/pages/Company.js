@@ -23,7 +23,7 @@ const Company = () => {
         <>
             <SEO title="Company" />
             <main className="page-wrapper">
-                <HeaderTopNews />
+                
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
 
                 {/* Start Slider Area  */}
@@ -33,7 +33,7 @@ const Company = () => {
                             <div className="col-lg-7 col-xl-6 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-start">
                                     <span className="subtitle">DIGITAL CONSULTING AGENCY</span>
-                                    <h1 className="title theme-gradient display-one">Doob Company.</h1>
+                                    <h1 className="title theme-gradient display-one">TPR Company.</h1>
                                     <ul className="list-icon">
                                         <li><span className="icon"><FiCheck /></span> Track your teams progress with mobile app.</li>
                                         <li><span className="icon"><FiCheck /></span> Lorem ipsum dolor sit amet consectetur adipisicing.</li>

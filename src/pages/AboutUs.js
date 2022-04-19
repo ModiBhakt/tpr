@@ -17,7 +17,6 @@ const AboutUs = () => {
         <>
             <SEO title="About Us" />
             <main className="page-wrapper">
-                <HeaderTopNews />
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
 
                 {/* Start Slider Area  */}

@@ -24,7 +24,7 @@ const Finance = () => {
         <>
             <SEO title="Finance" />
             <main className="page-wrapper">
-                <HeaderTopNews />
+                
                 <HeaderTwo btnStyle="btn-small" HeaderSTyle="header-not-transparent" />
 
                 {/* Start Slider area  */}
@@ -36,7 +36,7 @@ const Finance = () => {
                                     <h4 className="subtitle">MEET CONSULTING</h4>
                                     <h1 className="title display-one">Financial Analysis <br />Developing Meeting.</h1>
                                     <div className="button-group mt--40 mt_sm--20">
-                                        <a className="btn-default" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">BUY DOOB NOW</a>
+                                        <a className="btn-default" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">BUY TPR NOW</a>
                                     </div>
                                 </div>
                             </div>
